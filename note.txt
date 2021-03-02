@@ -23,8 +23,11 @@
     git reset --hard HeAD~100 退回到前一百个版本
     git reset --hard 版本号  //回退到指定版本
     git reflog //可获取版本号
+    git reset filename //将暂存区的修改退回工作区
 
 8.撤销上一次动作
     git restore -- filename
+    就是让这个文件回到最近一次git commit或git add时的状态。
 
-    test 
+9草草草草
+dddd
