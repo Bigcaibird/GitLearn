@@ -1,0 +1,19 @@
+1.配置标识
+    git config --global user.name "name"
+    git config --global user.email "email address"
+
+2.创建版本库（repository）
+    git init 可以将一个目录变成git可以管理的仓库。
+
+3.添加文件到暂存区
+    git add filename
+
+4.提交文件到仓库
+    git commit - m '注释内容'
+
+5.查看未提交的内容
+    git status
+
+6.对比文件更改的内容
+    git diff filename 
+
