@@ -17,3 +17,12 @@
 6.对比文件更改的内容
     git diff filename 
 
+7.版本回溯
+    git reset --hard HEAD^ //退回到上一个版本
+    git reset --hard HEAD^^ //退回到上上个版本
+    git reset --hard HeAD~100 退回到前一百个版本
+    git reset --hard 版本号  //回退到指定版本
+    git reflog //可获取版本号
+
+8.撤销上一次动作
+    git restore -- filename
